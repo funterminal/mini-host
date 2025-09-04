@@ -17,7 +17,7 @@ Mini Host is a lightweight, fast, and efficient file hosting service built with 
 Use `curl` to upload a file to Mini Host:
 
 ```sh
-curl -F 'file=@hello.txt' https://mini-host.onrender.com/upload
+curl -F 'file=@hello.txt' https://mini-host-jnvm.onrender.com/upload
 ```
 
 The response will contain a URL where the uploaded file can be accessed.
@@ -27,7 +27,7 @@ The response will contain a URL where the uploaded file can be accessed.
 Once a file is uploaded, access it via:
 
 ```sh
-https://mini-host.onrender.com/f/{file_id}
+https://mini-host-jnvm.onrender.com/f/{file_id}
 ```
 
 Replace `{file_id}` with the actual filename returned during the upload process.
@@ -39,18 +39,13 @@ Uploaded files are stored in the `uploads` directory within the project's root. 
 ## Deployment
 
 Mini Host is hosted at:  
-**[https://mini-host.onrender.com](https://mini-host.onrender.com)**
+**[https://mini-host-jnvm.onrender.com/](https://mini-host-jnvm.onrender.com/)**
 
 For production environments, a **reverse proxy** like **Nginx** can be used to route traffic.
 
 ## License
 
-This project is licensed under the **MIT License**. See [LICENSE](https://github.com/beautifulsh2/mini-host/blob/main/LICENSE) for details.
-
-## Repository
-
-Find the source code and contribute at:  
-**[GitHub Repository](https://github.com/beautifulsh2/mini-host)**
+This project is licensed under the **MIT License**.See [LICENSE](https://github.com/funterminal/mini-host/blob/main/LICENSE) for details.
 
 ## Contributing
 
